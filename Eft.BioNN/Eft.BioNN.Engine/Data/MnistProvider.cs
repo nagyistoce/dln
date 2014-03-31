@@ -6,9 +6,8 @@
 
 namespace Eft.BioNN.Engine.Data
 {
-	using System;
 	using System.IO;
-	using System.Threading.Tasks;
+	using System.Reflection;
 
 	/// <summary>
 	/// A data provider for the MNIST data set of handwritten digits.
@@ -42,7 +41,7 @@ namespace Eft.BioNN.Engine.Data
 		/// <summary>
 		/// The mnist data directory
 		/// </summary>
-		private static readonly string MnistDataDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "CNNWB", "MNIST Dataset");
+		private static readonly string MnistDataDirectory = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "..", "..", "..", "MNIST");
 
 		/// <summary>
 		/// Gets the number of classes in the data set.
