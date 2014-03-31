@@ -1,9 +1,0 @@
-﻿<Window x:Class="Eft.BioNN.WpfClient.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid Background="{x:Null}">
-		<Slider Height="23" HorizontalAlignment="Left" Margin="12,46,0,0" Name="slider1" VerticalAlignment="Top" Width="100" Maximum="1" DataContext="{Binding}" />
-		<Label Content="{Binding Path=Value, ElementName=slider1}" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" ContentStringFormat="{}{0:p}" />
-	</Grid>
-</Window>
