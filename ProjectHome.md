@@ -1,0 +1,5 @@
+This is a program I created as I was working on my master's thesis on artificial neural networks and bio-plausibility.
+
+The abstract of the thesis reads as follows:
+
+_Artificial neural networks, in particular deep networks, have been at the heart of many recent advancements in artificial intelligence, especially in pattern recognition. While such networks are inspired by biology, they are a gross simplification of biological neural networks and the engineering that goes into designing and training them is at odds with neuroscientific evidence. We propose an artificial neural network model, dubbed Discretized Layered Network (DLN), that is designed with increased bio-plausibility in mind. Using Contrastive Divergence learning, we achieve an error rate of 8.6% on the MNIST task with a DLN classifier that has 1000 hidden neurons. A comparably trained Restricted Boltzmann Machine (RBM) with an equal number of hidden neurons accomplishes 5.2%._
